@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg,#4f66fe,#005dfe);
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+/* Passport image */
+.photo-box {
+    width: 80px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ID Card */
+.id-card {
+    width: 320px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
